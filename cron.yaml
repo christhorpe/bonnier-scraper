@@ -1,0 +1,8 @@
+cron:
+- description: initiate feed pull
+  url: /scrape/feeds
+  schedule: every 5 minutes
+
+- description: initiate section pull
+  url: /scrape/sectionpages
+  schedule: every 60 minutes  
